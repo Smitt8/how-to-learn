@@ -104,6 +104,29 @@ div {
   z-index: 0;
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 100px;
+}
+
+.two-colums {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.two-colums__brief {
+  width: 175px;
+  margin: 0;
+}
+
+.two-colums__main-text {
+  width: 80%;
+  margin: 0;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
