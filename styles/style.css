@@ -82,6 +82,7 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   box-sizing: content-box;
   width:  100%;
   margin: 0;
+  font-weight: normal;
 }
 
 .header__main-illustration {
@@ -111,8 +112,12 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   z-index: 0;
 }
 
-.section-margin {
-  margin: 100px 0 100px;
+.section-margin-t100 {
+  margin-top: 100px;
+}
+
+.section-margin-b100{
+  margin-bottom: 100px;
 }
 
 .description {
@@ -136,6 +141,7 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;
 }
 
 .two-colums__main-text {
@@ -149,6 +155,7 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   line-height: 34px;
   font-size: 24px;
   margin-bottom: 30px;
+  font-weight: normal;
 }
 .two-colums__paragraph:last-of-type {
   margin-bottom: 0;
@@ -189,6 +196,7 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
 .section-subtitle__text {
   line-height: 34px;
   font-size: 24px;
+  font-weight: normal;
 } 
 
 .table {
@@ -208,8 +216,12 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   border: 1px red solid;
 }
 
-.margin-b-20 {
+.margin-b20 {
   margin-bottom: 20px;
+}
+
+.margin-t60 {
+  margin-top: 60px;
 }
 
 .table__title {
@@ -221,11 +233,53 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
 .table__paragraph {
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;
 }
 
 .list {
   list-style: none;
 }
+
+.feynman {
+  height: 860px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../images/feynman.png');
+  background-position: left;
+  background-size: auto;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.feynman__title {
+  width: 648px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.feynman__title-text {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+}
+
+.feynman__text{
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
