@@ -20,11 +20,6 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   color: #000;
 }
 
-.link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -36,14 +31,13 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
 
 .logo {
   width: 183px;
-  height: 32px;
 }
 
-.logo_place_header{
+.logo_place_header {
+  height: 32px;
   position: absolute;
   top: 30px;
   left: 64px;
-  background-image: url('../images/logo_place_header.svg');
   z-index: 2;
 }
 
@@ -74,6 +68,11 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   font-weight: normal;
 }
 
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -95,17 +94,10 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   z-index: 0;
 }
 
-.section-margin-t100 {
-  margin-top: 100px;
-}
-
-.section-margin-b100{
-  margin-bottom: 100px;
-}
-
 .description {
   display: flex;
   justify-content: center;
+  min-height: 500px ;
 }
 
 .two-colums {
@@ -113,6 +105,7 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 100px;
 }
 
 .two-colums__brief {
@@ -136,6 +129,7 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   margin-bottom: 30px;
   font-weight: normal;
 }
+
 .two-colums__paragraph:last-of-type {
   margin-bottom: 0;
 }
@@ -158,6 +152,7 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  margin-top: 100px;
 }
 
 .section-subtitle {
@@ -170,15 +165,14 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
 
 .table {
   width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 100px;
 }
 
 .table__row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .table__cell {
@@ -190,13 +184,13 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   margin-bottom: 20px;
 }
 
-.table__title {
+.table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
-.table__paragraph {
+.table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -213,14 +207,13 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   flex-direction: column;
   background-image: url('../images/feynman.png');
   background-position: left bottom;
-  background-size: fill;
+  background-size: auto;
   background-repeat: no-repeat;
   align-items: center;
 }
 
 .feynman__title {
   width: 648px;
-  margin-top: 100px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -238,24 +231,35 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
   position: absolute;
   top: 50%;
   right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .kaufman {
   display: flex;
   flex-direction: column;
   align-items: center;
-   background-color: black;
+  background-color: #1f1f1f;
   color: white;
   position: relative;
   z-index: 0;
+  overflow: hidden;
 }
 
-.section-margin-t90 {
+.section-title_theme_dark {
   margin-top: 90px;
+  z-index: 1;
 }
 
-.table_up_position {
-  z-index: 2;
+.section-subtitle_theme_dark {
+  z-index: 1;
+}
+.section_table_theme_dark {
+  margin-bottom: 90px;
+  z-index: 1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -269,11 +273,61 @@ p, a, h1, h2, h3, h4, h5, h6, ul {
 .kaufman__triangle {
   width: 877px;
   height: 877px;
-  background-image: url('../images/kaufman-triangle.svg');
-  background-size: cover;
   position: absolute;
   top: 0;
-  right: 0;
-  z-index: 1;
+  right: -210px;
+}
+
+.footer {
+  display: flex;
+  min-height: 350px;
+  background-color: #1f1f1f;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto 40px;
+  width: 90%;
+  color: white;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  height: 85px;
+}
+
+.footer__author {
+  margin: 18px 0 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
