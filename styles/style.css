@@ -200,7 +200,7 @@
 }
 
 .feynman {
-  min-height: 860px;
+  min-height: 890px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -313,7 +313,7 @@
 }
 
 .logo_place_footer {
-  height: 85px;
+  height: 35px;
 }
 
 .footer__author {
