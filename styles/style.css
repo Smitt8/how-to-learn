@@ -1,51 +1,6 @@
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
-.feynman {
-  min-height: 890px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background-color: #f2f2f2;
-  background-image: url('../images/feynman.png');
-  background-position: left bottom;
-  background-size: auto;
-  background-repeat: no-repeat;
-  align-items: center;
-  padding-top: 100px;
-}
-
-.feynman__title {
-  margin: 0;
-  padding: 0;
-  width: 648px;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-}
-
-.feynman__subtitle {
-  padding: 0;
-  margin: 70px 0 0 0;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-}
-
-.feynman__link {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  text-decoration: none;
-  color: #2f80ed;
-}
-
 .kaufman {
   display: flex;
   flex-direction: column;
