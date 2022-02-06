@@ -4,6 +4,7 @@
 /* Стили лого */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
+
 /* Стили заголовка */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -11,22 +12,36 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
+
 /* Стили блока decription */
 @import url(../blocks/description/description.css);
+
 /* Стили блока two-columns */
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+
+/* Стили блока techniques */
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__decription/cards__description.css);
+
 /* Стили блока digits */
 @import url(../blocks/digits/digits.css);
+
 /* Стили блока title */
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+
 /* Стили блока subtitle */
 @import url(../blocks/sections-subtitle/section-subtitle.css);
 @import url(../blocks/sections-subtitle/_theme/section-subtitle_theme_dark.css);
+
 /* Стили блока table */
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
@@ -52,3 +67,6 @@
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
+
+@import url(../blocks/rotation/rotation.css);
+
