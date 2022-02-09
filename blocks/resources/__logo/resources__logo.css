@@ -1,4 +1,4 @@
-.resouces__logo {
+.resources__logo {
   margin: 0;
   padding: 0;
   width: 270px;
@@ -8,6 +8,6 @@
   cursor: pointer;
 }
 
-.resouces__logo:hover {
+.resources__logo:hover {
   opacity: 0.5;
 }
