@@ -3,4 +3,11 @@
   padding: 0;
   color: #2f80ed;
   text-decoration: none;
+  opacity: 1;
+  transition: opacity 1s ease;
+  cursor: pointer;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
